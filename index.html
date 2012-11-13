@@ -2,8 +2,8 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<title>N.H.</title>
-	<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+	<title>s.m.d</title>
+	<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<meta name="robots" content="all" />
 	<meta name="MSSmartTagsPreventParsing" content="true" />
@@ -14,18 +14,29 @@
 	<![endif]-->	
 	<style>
 		* { padding: 0; margin: 0; }
-		body { background-color: #333; }
-		p { color: #fff; font-family: Helvetica; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
-		a { color: #fff; font-weight: bold; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.3); }
-		a:hover { color: #990000; border-bottom: 1px solid rgba(255,255,255,1); }
+		body { background-color: rgba(246,241,232,1); background-image:url('bg.png');}
+		p { color: #6e554a; font-family: HelveticaNeue; font-size: 16px; line-height: 24px; margin-bottom: 22px; -webkit-font-smoothing: antialiased; }
+		a { color: rgba(244,100,29,0.8); font-weight: bold; text-decoration: none; border-bottom: 1px solid #aa9c84; }
+		a:hover { color: rgba(244,100,29,1); border-bottom: 1px solid #6e554a; }
 		#monogram { width: 50px; padding: 50px 0 0 0; margin: 0 auto 0 50px; }
-		#about { width: 360px; padding: 0 0 0 150px; margin: -35px 50px 0 auto !important; }
+		#about { width: 400px; padding: 0 0 0 5px; margin: -35px 50px 0 auto !important; }
 		@media (max-width: 767px) {
 			#monogram { position: relative; width: auto; padding: 20px; margin: 0; }
 			#about { position: relative; width: auto; padding: 20px; margin: 0 !important; }
 			background-image { opacity: 0.2; }
 		}
 	</style>
+	<script type="text/javascript">
+			var _gaq = _gaq || [];
+		  	_gaq.push(['_setAccount', 'UA-25383265-1']);
+		  	_gaq.push(['_trackPageview']);
+		
+		  	(function() {
+		   		 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		   		 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		   		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  	})();
+	</script>
 </head>	
     
 <body>
@@ -37,9 +48,13 @@
 
 <!-- swap out for information about yourself -->
 <div id="about">
-	<p>Naz Hamid is the founder and principal of <a href="http://weightshift.com">Weightshift</a>, a design studio in San Francisco and Chicago. Aside from client work, projects include the community-oriented site <a href="http://interhoods.org">Interhoods</a> and mobile web application, <a href="http://sitby.us">SitBy.Us</a>. The two projects codenamed <em>Suplex</em> and <em>Sleeperhold</em> are aiming to be launched in 2011.</p>
-	<p>He writes about design and tangential topics at <a href="http://weightshift.com/memo">Memo</a>, writes in 140 characters at <a href="http://twitter.com/weightshift">Twitter</a>, posts photos to <a href="http://flickr.com/absenter"/>Flickr</a>, creates 400x300px works-in-progress on <a href="http://dribbble.com/weightshift">Dribbble</a>, sometimes makes moving pictures on <a href="http://vimeo.com/weightshift">Vimeo</a>, records items of interest at <a href="http://svpply.com/weightshift">Svpply</a>, listens to all his music on <a href="http://www.rdio.com/people/weightshift/">Rdio</a> and answers the occasional question on <a href="http://www.quora.com/Naz-Hamid">Quora</a>. He also makes music as <a href="http://murdersandmysteries.com">Murders & Mysteries</a> and released an album in 2010.</p>
-	<p>A <a href="http://en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>, Naz has lived on three continents and in three countries. He currently lives in San Francisco, California, a place where he feels comfortable in his own skin.</p> 
+	<p>Sirius M Dely was born in <a href="http://en.wikipedia.org/wiki/Bukittinggi">Bukittinggi</a>. Where he spent his childhood until finished high-school. And then continue his study in <a href="http://stei.itb.ac.id/">Electrical Engineering - Bandung Institute of Technology</a>.</p>
+
+	<p>He is currently living and working in <a href="http://en.wikipedia.org/wiki/Bandung">Bandung</a> where an independent business group of <a href="http://www.suitmedia.com">Suitmedia</a>, called <a href="http://twitter.com/suitmobile">Suitmedia Mobile</a>, resides. With his skills &amp; experiences on mobile apps development, project management and team building - he is in charge as Head of Suitmedia Mobile. Many apps that has been published can be found on <a href="appworld.blackberry.com/webstore/vendor/4541">each</a> <a href="https://play.google.com/store/apps/developer?id=SUITMEDIA">app</a>-<a href="https://itunes.apple.com/us/artist/id465005122">stores</a>.</p>
+	
+	<p>He has interests in many topics, but currently focusing on information technology: mobile apps &amp; website in order to make more widely-used internet services - <a href="http://www.ignatianspirituality.com">ignatian spirituality</a> in order to stay in balance and connected - and also to be an excellent contributor to society.</p>
+
+	<p>More on his thoughts &amp; social network connections can be found on his <a href="http://notes.siriusdely.com">notes</a>, and also can be reached by email: <a href="mailto:mail@siriusdely.com?Subject=Hi,%20Sirius!">mail[@]siriusdely[.]com</a>.</p>
 </div>
 
 <!--include jquery & backstretch-->
@@ -49,7 +64,7 @@
 $(function(){
      $(window).resize(function(){
          if($(this).width() >= 767){
-             $.backstretch("nh_bg.jpg", {speed: 150});
+             $.backstretch("smd_bg.jpg", {speed: 150});
          }
       })
       .resize();//trigger resize on page load
